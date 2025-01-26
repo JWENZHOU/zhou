@@ -1,0 +1,73 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+    font-family: 'Futura PT', 'Futura', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.2;
+    padding: 20px;
+    color: #000;
+}
+
+/* Header styles */
+.header {
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 4px;
+}
+
+/* Navigation styles */
+.navigation {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.navigation span {
+    display: inline;
+}
+
+/* Link styles */
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Content area styles */
+.content {
+    max-width: 100%;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Info link styles */
+.info-link {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navigation span {
+        display: block;
+        margin-bottom: 4px;
+    }
+}
